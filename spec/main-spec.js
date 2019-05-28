@@ -1,5 +1,9 @@
 const main = require('../main/main');
 
-function main(num1, num2) {
-    console.log(num1%num2);
-}
+describe('main()', () => {
+
+    it('should calculate the remaindar', () => {
+        expect(main(9, 3)).toBe(0);
+        expect(main(11, 4)).toBe(3);
+    });
+});
