@@ -1,6 +1,4 @@
 // Write your cade below:
-module.exports = function main() {
-  return function (num1, num2) {
-      console.log(num1 % num2);
-  }
+module.exports = function main(num1, num2) {
+  return num1 % num2;
 };
